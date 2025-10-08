@@ -1,0 +1,45 @@
+# Core web framework
+streamlit==1.28.0
+
+# Machine Learning & AI
+torch==2.1.0
+transformers==4.35.2
+sentence-transformers==2.2.2
+accelerate==0.24.1
+
+# Vector Search & Embeddings
+faiss-cpu==1.7.4
+numpy==1.24.3
+
+# Document Processing
+PyPDF2==3.0.1
+
+# Data Processing
+pandas==2.0.3
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Image Processing (compatible with Streamlit)
+pillow>=7.1.0,<11.0.0
+
+# Package compatibility (compatible with Streamlit)
+packaging>=16.8,<24.0
+
+# Fast model downloads
+hf_xet>=1.1.0
+
+# Additional dependencies for sentence-transformers
+scikit-learn>=1.2.0
+scipy>=1.10.0
+nltk>=3.8
+sentencepiece>=0.1.96
+
+# For tokenization
+tokenizers>=0.13.0,<0.15.0
+
+# For HuggingFace Hub
+huggingface-hub>=0.16.0,<1.0.0
